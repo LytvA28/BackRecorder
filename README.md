@@ -20,7 +20,7 @@ A voice recorder that remembers the past. Like "instant replay" in screen-record
 | 1 hour | ~28 MB |
 | 2 hours | ~57 MB |
 
-## 📲 Installing on your phone (Android 10 or newer)
+## Installing on your phone (Android 10 or newer)
 
 1. On your phone, open the **[Releases](../../releases/latest)** page of this repository.
 2. Download **`BackRecorder.apk`**.
@@ -35,7 +35,7 @@ A voice recorder that remembers the past. Like "instant replay" in screen-record
 ### Updating
 Download the new `BackRecorder.apk` from Releases and install it over the old one. Your settings and recordings are kept.
 
-## 🛠️ Building from source
+## Building from source
 1. Install [Android Studio](https://developer.android.com/studio).
 2. `File → Open` → the project folder, wait for Gradle Sync.
 3. `Build → Build App Bundle(s) / APK(s) → Build APK(s)`, or from a terminal:
@@ -72,7 +72,7 @@ Download the new `BackRecorder.apk` from Releases and install it over the old on
 | 1 час | ~28 МБ |
 | 2 часа | ~57 МБ |
 
-### 📲 Установка на телефон (Android 10 и новее)
+### Установка на телефон (Android 10 и новее)
 
 1. Открой на телефоне страницу **[Releases](../../releases/latest)** этого репозитория.
 2. Скачай файл **`BackRecorder.apk`**.
@@ -87,7 +87,7 @@ Download the new `BackRecorder.apk` from Releases and install it over the old on
 #### Обновление
 Скачай новый `BackRecorder.apk` из Releases и установи поверх — настройки и записи сохранятся.
 
-### 🛠️ Сборка из исходников
+### Сборка из исходников
 1. Установи [Android Studio](https://developer.android.com/studio).
 2. `File → Open` → папка проекта, дождись Gradle Sync.
 3. `Build → Build App Bundle(s) / APK(s) → Build APK(s)`, или в терминале `gradlew assembleDebug`.
