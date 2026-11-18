@@ -2,6 +2,8 @@
 
 **English** · [Русский](#русский)
 
+**📥 Download:** [Telegram channel @BackRecorder](https://t.me/BackRecorder) · [GitHub Releases](../../releases/latest)
+
 A voice recorder that remembers the past. Like "instant replay" in screen-recording apps, but for sound: the app keeps the **last N minutes** of microphone audio in memory (from 1 minute up to 2 hours). Someone said something important? Tap "Save" and you get a recording of what happened **before** you tapped. Older audio is deleted automatically.
 
 ## Features
@@ -22,9 +24,11 @@ A voice recorder that remembers the past. Like "instant replay" in screen-record
 
 ## Installing on your phone (Android 10 or newer)
 
-1. On your phone, open the **[Releases](../../releases/latest)** page of this repository.
-2. Download **`BackRecorder.apk`**.
-3. Open the downloaded file. Android will ask about installing from unknown sources: tap **Settings → allow it for your browser / file manager**, go back, then tap **Install**.
+1. Download **`BackRecorder.apk`** on your phone from either place:
+   - the Telegram channel **[BackRecorder](https://t.me/BackRecorder)** — just open the latest post and tap the file (easiest, no GitHub needed);
+   - or the **[Releases](../../releases/latest)** page of this repository.
+2. Wait until the download finishes.
+3. Open the downloaded file. Android will ask about installing from unknown sources: tap **Settings → allow it for Telegram / your browser**, go back, then tap **Install**.
    - If Google Play Protect says "App not verified", tap **More details → Install anyway**. This happens with every app that isn't from the Play Store.
 4. Launch **BackRecorder** and allow **microphone** and **notification** access.
 5. Tap **"Disable battery optimization for the app"** → Allow. Without it, the phone may kill recording in the background.
@@ -33,7 +37,7 @@ A voice recorder that remembers the past. Like "instant replay" in screen-record
    - **Huawei / Honor:** Battery → App launch → BackRecorder → Manage manually, turn on all three switches.
 
 ### Updating
-Download the new `BackRecorder.apk` from Releases and install it over the old one. Your settings and recordings are kept.
+Download the new `BackRecorder.apk` from the [Telegram channel](https://t.me/BackRecorder) or Releases and install it over the old one. Your settings and recordings are kept.
 
 ## Building from source
 1. Install [Android Studio](https://developer.android.com/studio).
@@ -53,6 +57,8 @@ Download the new `BackRecorder.apk` from Releases and install it over the old on
 ---
 
 ## Русский
+
+**📥 Скачать:** [Telegram-канал @BackRecorder](https://t.me/BackRecorder) · [GitHub Releases](../../releases/latest)
 
 Диктофон, который помнит прошлое. Работает как «повтор» в программах записи экрана, только для звука: приложение постоянно слушает микрофон и держит в памяти **последние N минут** (от 1 минуты до 2 часов). Что-то важное сказали — жмёшь «Сохранить» и получаешь запись того, что было **до** нажатия. Старое удаляется само.
 
@@ -74,9 +80,11 @@ Download the new `BackRecorder.apk` from Releases and install it over the old on
 
 ### Установка на телефон (Android 10 и новее)
 
-1. Открой на телефоне страницу **[Releases](../../releases/latest)** этого репозитория.
-2. Скачай файл **`BackRecorder.apk`**.
-3. Открой скачанный файл. Android спросит про установку из неизвестных источников — нажми **«Настройки» → разреши для браузера/файлового менеджера** → вернись назад → **«Установить»**.
+1. Скачай **`BackRecorder.apk`** на телефон в одном из мест:
+   - Telegram-канал **[BackRecorder](https://t.me/BackRecorder)** — открой последний пост и нажми на файл (проще всего, GitHub не нужен);
+   - или страница **[Releases](../../releases/latest)** этого репозитория.
+2. Дождись окончания загрузки.
+3. Открой скачанный файл. Android спросит про установку из неизвестных источников — нажми **«Настройки» → разреши для Telegram/браузера** → вернись назад → **«Установить»**.
    - Если Google Play Защита предупредит «Приложение не проверено» — нажми **«Подробнее» → «Всё равно установить»**. Так бывает со всеми приложениями не из Play Маркета.
 4. Запусти **BackRecorder**, разреши доступ к **микрофону** и **уведомлениям**.
 5. Нажми **«Отключить экономию батареи для приложения»** → «Разрешить». Без этого телефон может закрыть запись в фоне.
@@ -85,7 +93,7 @@ Download the new `BackRecorder.apk` from Releases and install it over the old on
    - **Huawei / Honor:** Батарея → Запуск приложений → BackRecorder → управлять вручную, включить все три переключателя.
 
 #### Обновление
-Скачай новый `BackRecorder.apk` из Releases и установи поверх — настройки и записи сохранятся.
+Скачай новый `BackRecorder.apk` из [Telegram-канала](https://t.me/BackRecorder) или Releases и установи поверх — настройки и записи сохранятся.
 
 ### Сборка из исходников
 1. Установи [Android Studio](https://developer.android.com/studio).
