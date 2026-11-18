@@ -9,8 +9,9 @@ import java.util.Locale;
 public final class LocaleHelper {
     private LocaleHelper() { }
 
-    public static final String[] CODES = {"", "ru", "uk", "en"};
-    public static final String[] NAMES = {null, "Русский", "Українська", "English"};
+    public static final String[] CODES = {"", "en", "de", "es", "fr", "it", "pl", "pt", "tr", "uk", "ru"};
+    public static final String[] NAMES = {null, "English", "Deutsch", "Español", "Français", "Italiano",
+            "Polski", "Português", "Türkçe", "Українська", "Русский"};
 
     public static String get(Context c) {
         return c.getSharedPreferences("settings", Context.MODE_PRIVATE).getString("lang", "");
