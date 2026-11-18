@@ -18,7 +18,7 @@
 | 1 час | ~28 МБ |
 | 2 часа | ~57 МБ |
 
-## 📲 Установка на телефон (Android 10 и новее)
+##  Установка на телефон (Android 10 и новее)
 
 1. Открой на телефоне страницу **[Releases](../../releases/latest)** этого репозитория.
 2. Скачай файл **`BackRecorder.apk`**.
@@ -33,7 +33,7 @@
 ### Обновление
 Скачай новый `BackRecorder.apk` из Releases и установи поверх — настройки и записи сохранятся.
 
-## 🛠️ Сборка из исходников
+##  Сборка из исходников
 1. Установи [Android Studio](https://developer.android.com/studio).
 2. `File → Open` → папка проекта, дождись Gradle Sync.
 3. `Build → Build App Bundle(s) / APK(s) → Build APK(s)`, или в терминале:
