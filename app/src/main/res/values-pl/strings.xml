@@ -36,4 +36,8 @@
     <string name="folder_path">Folder: %s</string>
     <string name="folder_empty">Folder jest jeszcze pusty – najpierw coś zapisz</string>
     <string name="no_file_manager">Nie znaleziono menedżera plików. Ścieżka: %s</string>
+    <string name="terms_title">Zanim zaczniesz</string>
+    <string name="terms_text">BackRecorder nieprzerwanie nagrywa dźwięk z mikrofonu, dopóki nagrywanie do bufora jest włączone.\n\n• Wyłącznie ty odpowiadasz za to, jak korzystasz z aplikacji i nagrań. W wielu krajach nagrywanie rozmów bez zgody ich uczestników jest niezgodne z prawem — przestrzegaj przepisów swojego kraju.\n• Aplikacja jest udostępniana „tak jak jest”, bez żadnych gwarancji. Autor nie ponosi odpowiedzialności za jakiekolwiek szkody, utratę danych, konsekwencje prawne ani inne straty związane z korzystaniem z aplikacji.\n• Nagrania są przechowywane tylko na twoim urządzeniu i nigdzie nie są wysyłane.\n\nNaciskając „Zgadzam się”, potwierdzasz, że przeczytałeś i akceptujesz te warunki.</string>
+    <string name="terms_agree">Zgadzam się</string>
+    <string name="terms_exit">Wyjdź</string>
 </resources>

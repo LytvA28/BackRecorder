@@ -36,4 +36,8 @@
     <string name="folder_path">Dossier : %s</string>
     <string name="folder_empty">Le dossier est encore vide — enregistrez d\'abord quelque chose</string>
     <string name="no_file_manager">Aucun gestionnaire de fichiers trouvé. Chemin : %s</string>
+    <string name="terms_title">Avant de commencer</string>
+    <string name="terms_text">BackRecorder enregistre en continu le son du micro tant que l\'enregistrement en tampon est activé.\n\n• Vous êtes seul responsable de l\'usage que vous faites de l\'appli et des enregistrements. Dans de nombreux pays, enregistrer une conversation sans le consentement des personnes concernées est illégal : respectez les lois de votre pays.\n• L\'appli est fournie « telle quelle », sans aucune garantie. L\'auteur décline toute responsabilité en cas de dommage, de perte de données, de conséquences juridiques ou de tout autre préjudice lié à l\'utilisation de l\'appli.\n• Les enregistrements restent uniquement sur votre appareil et ne sont envoyés nulle part.\n\nEn appuyant sur « J\'accepte », vous confirmez avoir lu et accepté ces conditions.</string>
+    <string name="terms_agree">J\'accepte</string>
+    <string name="terms_exit">Quitter</string>
 </resources>

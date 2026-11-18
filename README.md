@@ -48,6 +48,11 @@ Download the new `BackRecorder.apk` from the [Telegram channel](https://t.me/Bac
    ```
    Output: `app/build/outputs/apk/debug/app-debug.apk`.
 
+## ⚠️ Disclaimer
+BackRecorder records audio continuously while buffering is on. **You alone are responsible** for how you use the app and the recordings. In many countries, recording conversations without the consent of the people involved is illegal — follow the laws of your country.
+
+The app is provided **"as is", without any warranty**. The author is not liable for any damage, data loss, legal consequences or other harm arising from its use. The app asks you to accept these terms on first launch and closes if you don't. See also [LICENSE](LICENSE) (MIT).
+
 ## How it works
 - `RingRecorder`: microphone → AAC 64 kbps, written in 30-second chunks to internal storage; chunks beyond the buffer length are deleted.
 - `AacExporter`: joins the chunks into one `.m4a` without re-encoding.
@@ -94,6 +99,11 @@ Download the new `BackRecorder.apk` from the [Telegram channel](https://t.me/Bac
 
 #### Обновление
 Скачай новый `BackRecorder.apk` из [Telegram-канала](https://t.me/BackRecorder) или Releases и установи поверх — настройки и записи сохранятся.
+
+### ⚠️ Отказ от ответственности
+BackRecorder непрерывно записывает звук, пока включена запись в буфер. **Ты сам отвечаешь** за то, как используешь приложение и записи. Во многих странах запись разговоров без согласия собеседников запрещена законом — соблюдай законы своей страны.
+
+Приложение предоставляется **«как есть», без каких-либо гарантий**. Автор не несёт ответственности за любой ущерб, потерю данных, юридические последствия или иной вред, связанный с его использованием. При первом запуске приложение просит принять эти условия и закрывается, если их не принять. См. также [LICENSE](LICENSE) (MIT).
 
 ### Сборка из исходников
 1. Установи [Android Studio](https://developer.android.com/studio).

@@ -36,4 +36,8 @@
     <string name="folder_path">Carpeta: %s</string>
     <string name="folder_empty">La carpeta aún está vacía: guarda algo primero</string>
     <string name="no_file_manager">No se encontró un gestor de archivos. Ruta: %s</string>
+    <string name="terms_title">Antes de empezar</string>
+    <string name="terms_text">BackRecorder graba continuamente el sonido del micrófono mientras la grabación en búfer está activada.\n\n• Tú eres el único responsable de cómo usas la app y las grabaciones. En muchos países es ilegal grabar conversaciones sin el consentimiento de los participantes: cumple las leyes de tu país.\n• La app se ofrece «tal cual», sin ninguna garantía. El autor no se hace responsable de daños, pérdida de datos, consecuencias legales ni ningún otro perjuicio derivado del uso de la app.\n• Las grabaciones se guardan solo en tu dispositivo y no se envían a ningún sitio.\n\nAl pulsar «Acepto» confirmas que has leído y aceptas estas condiciones.</string>
+    <string name="terms_agree">Acepto</string>
+    <string name="terms_exit">Salir</string>
 </resources>

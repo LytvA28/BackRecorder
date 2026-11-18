@@ -37,4 +37,8 @@
     <string name="folder_path">Folder: %s</string>
     <string name="folder_empty">The folder is empty for now — save something first</string>
     <string name="no_file_manager">No file manager found. Path: %s</string>
+    <string name="terms_title">Before you start</string>
+    <string name="terms_text">BackRecorder continuously records audio from the microphone while buffering is on.\n\n• You alone are responsible for how you use the app and the recordings. In many countries, recording conversations without the consent of the people involved is illegal — follow the laws of your country.\n• The app is provided \"as is\", without any warranty. The author is not liable for any damage, data loss, legal consequences or other harm arising from the use of the app.\n• Recordings are stored only on your device and are not sent anywhere.\n\nBy tapping \"I agree\" you confirm that you have read and accept these terms.</string>
+    <string name="terms_agree">I agree</string>
+    <string name="terms_exit">Exit</string>
 </resources>

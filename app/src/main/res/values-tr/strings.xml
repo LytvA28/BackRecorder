@@ -36,4 +36,8 @@
     <string name="folder_path">Klasör: %s</string>
     <string name="folder_empty">Klasör henüz boş — önce bir şey kaydet</string>
     <string name="no_file_manager">Dosya yöneticisi bulunamadı. Yol: %s</string>
+    <string name="terms_title">Başlamadan önce</string>
+    <string name="terms_text">BackRecorder, arabelleğe kayıt açık olduğu sürece mikrofondan sürekli ses kaydeder.\n\n• Uygulamayı ve kayıtları nasıl kullandığından yalnızca sen sorumlusun. Birçok ülkede konuşmaları katılımcıların izni olmadan kaydetmek yasa dışıdır — ülkenin yasalarına uy.\n• Uygulama hiçbir garanti olmaksızın \"olduğu gibi\" sunulur. Yazar, uygulamanın kullanımından doğan hiçbir zarardan, veri kaybından, hukuki sonuçtan veya başka bir kayıptan sorumlu değildir.\n• Kayıtlar yalnızca cihazında saklanır ve hiçbir yere gönderilmez.\n\n\"Kabul ediyorum\"a dokunarak bu koşulları okuduğunu ve kabul ettiğini onaylarsın.</string>
+    <string name="terms_agree">Kabul ediyorum</string>
+    <string name="terms_exit">Çık</string>
 </resources>

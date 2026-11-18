@@ -96,6 +96,27 @@ public class MainActivity extends Activity {
         lang.setText(("🌐 " + LocaleHelper.shortLabel(this)).trim());
         lang.setOnClickListener(v -> chooseLanguage());
 
+        if (!termsAccepted()) showTerms();
+    }
+
+    /** Версия текста условий: если когда-нибудь поменяешь текст — увеличь, и его спросят заново. */
+    private static final int TERMS_VERSION = 1;
+
+    private boolean termsAccepted() {
+        return prefs.getInt("terms_accepted", 0) >= TERMS_VERSION;
+    }
+
+    /** Окно «Перед началом»: без согласия приложение закрывается. */
+    private void showTerms() {
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.terms_title)
+                .setMessage(R.string.terms_text)
+                .setCancelable(false)
+                .setPositiveButton(R.string.terms_agree,
+                        (d, w) -> prefs.edit().putInt("terms_accepted", TERMS_VERSION).apply())
+                .setNegativeButton(R.string.terms_exit, (d, w) -> finishAndRemoveTask())
+                .setNeutralButton("🌐", (d, w) -> chooseLanguage())
+                .show();
     }
 
     /** Сколько места займёт буфер такой длины: аудио-битрейт + 7 байт ADTS-заголовка на кадр. */
@@ -138,14 +159,20 @@ public class MainActivity extends Activity {
         String cur = LocaleHelper.get(this);
         int checked = 0;
         for (int i = 0; i < LocaleHelper.CODES.length; i++) if (LocaleHelper.CODES[i].equals(cur)) checked = i;
+        boolean[] changed = {false};
         new AlertDialog.Builder(this)
                 .setTitle(R.string.language)
+                .setOnDismissListener(d -> {
+                    // язык выбирали из окна условий и не поменяли — вернуть окно условий
+                    if (!changed[0] && !termsAccepted()) showTerms();
+                })
                 .setSingleChoiceItems(names, checked, (d, which) -> {
-                    d.dismiss();
                     String code = LocaleHelper.CODES[which];
-                    if (code.equals(cur)) return;
+                    changed[0] = !code.equals(cur);
+                    d.dismiss();
+                    if (!changed[0]) return;
                     LocaleHelper.set(this, code);
-                    recreate();
+                    recreate(); // после пересоздания окно условий покажется снова на новом языке
                     // уведомление тоже перерисуем на новом языке
                     if (BufferService.recorder() != null) {
                         startService(new Intent(this, BufferService.class)

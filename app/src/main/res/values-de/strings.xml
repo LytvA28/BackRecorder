@@ -36,4 +36,8 @@
     <string name="folder_path">Ordner: %s</string>
     <string name="folder_empty">Der Ordner ist noch leer – speichere zuerst etwas</string>
     <string name="no_file_manager">Kein Dateimanager gefunden. Pfad: %s</string>
+    <string name="terms_title">Bevor du startest</string>
+    <string name="terms_text">BackRecorder nimmt ununterbrochen Ton über das Mikrofon auf, solange die Pufferaufnahme läuft.\n\n• Du allein bist dafür verantwortlich, wie du die App und die Aufnahmen nutzt. In vielen Ländern ist das Aufnehmen von Gesprächen ohne Zustimmung der Beteiligten verboten – halte dich an die Gesetze deines Landes.\n• Die App wird „wie besehen“ ohne jegliche Gewährleistung bereitgestellt. Der Autor haftet nicht für Schäden, Datenverlust, rechtliche Folgen oder sonstige Nachteile, die aus der Nutzung der App entstehen.\n• Aufnahmen werden nur auf deinem Gerät gespeichert und nirgendwohin gesendet.\n\nMit „Ich stimme zu“ bestätigst du, dass du diese Bedingungen gelesen hast und akzeptierst.</string>
+    <string name="terms_agree">Ich stimme zu</string>
+    <string name="terms_exit">Beenden</string>
 </resources>
